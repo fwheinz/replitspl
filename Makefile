@@ -9,3 +9,6 @@ main: $(OBJ)
 
 run: main
 	./main
+
+clean:
+	rm -f $(OBJ) main
